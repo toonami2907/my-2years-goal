@@ -1,96 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script defer src="/_vercel/insights/script.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
-    />
-    <title>Vercel HTML Starter</title>
-    <meta
-      name="description"
-      content="High-performance HTML based website template."
-    />
-  </head>
-  <body>
-    <h1>Vercel HTML Starter</h1>
-    <p>
-      This template is a simple, but powerful single
-      <code>index.html</code> file deployed to
-      <a href="https://vercel.com">Vercel</a>. When your site is deployed, all
-      static assets (like HTML, JavaScript, CSS, images, and more) are deployed
-      globally to every
-      <a href="https://vercel.com/docs/concepts/edge-network/overview"
-        >Vercel Edge Network</a
-      >
-      region.
-    </p>
-    <h2>Simple, privacy-friendly analytics</h2>
-    <p>
-      Want to understand your visitor traffic? Vercel Analytics gives you
-      first-party, privacy-friendly traffic analytics for your HTML site. This
-      template is already configured using the following script:
-    </p>
-    <pre><code>&lt;script defer src="/_vercel/insights/script.js"&gt;&lt;/script&gt;</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/analytics">Vercel Analytics</a>.
-    </p>
-    <h2>Integrated with git</h2>
-    <p>
-      Deploying updates to your site is as simple as
-      <code>git push</code> thanks to Vercel's advanced
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-      Support for GitHub, GitLab, Bitbucket is zero-configuration, and with the
-      flexible Vercel CLI and API, you can integrate with any tool possible.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-    </p>
-    <h2>Fast <code>gzip</code> compression</h2>
-    <p>
-      To help ensure the smallest possible file sizes for your static assets,
-      the Vercel Edge Network compresses files by default using
-      <code>gzip</code>. You can also optionally use
-      <code>brotli</code> compressesion if you prefer.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/edge-network/compression"
-        >compression</a
-      >.
-    </p>
-    <h2>Advanced routing configuration</h2>
-    <p>
-      Vercel gives you a variety of ways to configure the routing of your
-      website. For example, adding redirects, rewrites, or headers to your page.
-      While you can use <code>vercel.json</code> to define these through JSON,
-      you can also express your routing configuration as code using
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
-    <p>
-      Middleware runs before the
-      <a href="https://vercel.com/docs/concepts/edge-network/caching"
-        >Vercel Edge Network Cache</a
-      >, so you can configure routing exactly as your application needs. For
-      example, this template uses <code>middleware.js</code> defined in the root
-      of the repository to add additional security headers to the site:
-    </p>
-    <pre><code>referrer-policy: origin-when-cross-origin
-strict-transport-security: max-age=31536000; includeSubDomains; preload
-x-content-type-options: nosniff
-x-dns-prefetch-control: on
-x-frame-options: DENY</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Tech Goals</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <h1>My Tech Goals for the Next 2 Years</h1>
+    <div class="header-items">
+        <p>Created by: <span data-testid="slackDisplayName">Effiong Michael</span></p>
+        <p>Current UTC Time: <span data-testid="currentTimeUTC"></span></p>
+        <p>Current Day: <span data-testid="currentDay"></span></p>
+        <p>Slack Email: <span data-testid="slackEmail">ikemm50@gmail.com</span></p>
+    </div>
+    <img src="https://ca.slack-edge.com/T07466B189M-U07ADTGPVQB-3cca04c2ec16-512" alt="Slack Profile Picture" data-testid="slackProfilePicture">
+  </header>
+
+  <main>
+    <section>
+      <h2>My Goals</h2>
+      <p>
+        This Website was created to display my goals for the next two as the title as display.
+      </p>
+      <p> Most of Goal are already into places but some at yet still unaccomplish. 
+        In the next line, i will be listing my goals that should verily be accomplished in the next 2 years </p>
+        <ul>
+            <li> 1.Mastering Docker <em>(very important)</em></li>
+            <li> 2.Completing my backend carrer <em>(becoming a fullstack Developer)</em></em></li>
+            <li> 3.Earning an AWS Cloud computing Certificate  <em>( also very important)</em></li>
+            <li> 4.Moving into other javascript framerworks <em>(Vuejs and Angular js)</em></li>
+            <li> 5.Mobile Developement</li>
+            <li>Finally, every developers dream is to work in an organization right ?. Yeah that will be what i will looking forward to do after the rest is being accomplished .</li>
+        </ul>
+      <em>Thanks for reading.</em>
+    </section>
+
+    <section>
+      <h2>Useful Links</h2>
+      <ul>
+        <li><a href="https://hng.tech/learn" target="_blank" rel="noopener noreferrer" data-testid="hngLink">HNG Learn</a></li>
+        <li><a href="https://keyword.dog" target="_blank" rel="noopener noreferrer" data-testid="keywordLink">Keyword Dog</a></li>
+        <li><a href="https://scrapeanyweb.site" target="_blank" rel="noopener noreferrer" data-testid="scrapeanywebLink">Scrape Any Web</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Michelle's Blog. All rights reserved.</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
 </html>
