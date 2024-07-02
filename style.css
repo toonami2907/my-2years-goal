@@ -33,10 +33,7 @@
 
   header img {
     max-width: 100%;
-    height: auto; /* This maintains aspect ratio */
-    display: block;
-    margin: 10px auto;
-}
+  }
 
   
   main {
@@ -63,14 +60,5 @@
     margin-bottom: 10px;
   }
   
-  footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #0b121c;
-    color: #fff;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0;
-  }
+ 
   
